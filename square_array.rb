@@ -1,7 +1,15 @@
 def square_array(array)
-  number = [1,2,3]
-for number in array
-return number * number
+i = 0
+newArr = []
+while i < array.size
+  i += 1
+  puts i ** 
+end
+
+# Step 3 + 4
+while apples_taken_out < apples_in_basket
+    puts "Taking out #{basket[apples_taken_out]}"
+    apples_taken_out += 1
 end
 
 # for number in the_count
