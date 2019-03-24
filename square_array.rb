@@ -3,14 +3,13 @@ i = 0
 newArr = []
 while i < array.size
   i += 1
-  puts i ** 
+  square = puts i ** 2
+  newArr.push(square)
+end
+return square
 end
 
-# Step 3 + 4
-while apples_taken_out < apples_in_basket
-    puts "Taking out #{basket[apples_taken_out]}"
-    apples_taken_out += 1
-end
+
 
 # for number in the_count
 #   puts "This is count #{number}"
