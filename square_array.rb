@@ -1,12 +1,10 @@
 def square_array(array)
-i = 0
 newArr = []
-while i < array.size
-  i += 1
-  square = puts i ** 2
-  newArr.push(square)
-end
-return newArr
+array.each do |num|
+ square = num * num
+ newArr.push(num)
+ end
+  return newArr
 end
 
 
