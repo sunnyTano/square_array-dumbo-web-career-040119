@@ -1,5 +1,5 @@
 def square_array(array)
-  numbers = [1,2,3]
+  number = [1,2,3]
 for number in array
 return number * number
 end
