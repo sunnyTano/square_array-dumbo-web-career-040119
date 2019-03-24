@@ -6,7 +6,7 @@ while i < array.size
   square = puts i ** 2
   newArr.push(square)
 end
-return square
+return newArr
 end
 
 
