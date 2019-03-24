@@ -1,6 +1,6 @@
 def square_array(array)
  length = array.size
- counter = 0
+ newArr = []
  loop do 
    if length 
 end
