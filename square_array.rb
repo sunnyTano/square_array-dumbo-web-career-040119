@@ -1,10 +1,11 @@
 def square_array(array)
- length = array.size
- newArr = []
- loop do 
-   if length 
+for number in array
+return number * number
 end
 
+# for number in the_count
+#   puts "This is count #{number}"
+# end
 # basket = ["apple 1","apple 2","apple 3","apple 4","apple 5","apple 6","apple 7","apple 8","apple 9","apple 10"]
  
 # apples_in_basket = basket.size # Step 1
